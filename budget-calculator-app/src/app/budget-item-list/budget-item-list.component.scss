@@ -13,13 +13,12 @@
         max-width: 680px;
         height: 100%;
         width: 100%;
-
+        
         .income-column, .expenses-column {
             display: flex;
             flex-direction: column;
             flex-basis: 0; // for the columns to be the same size, regardless of content
             flex-grow: 1;
-            // background-color: aqua;
 
             h1 {
                 font-family: 'Lato';
@@ -34,7 +33,6 @@
                 margin-top: 20px;
             }
         }
-        // .expenses-column { background-color: brown ; }
 
         .income-column {
             margin-right: 35px;
