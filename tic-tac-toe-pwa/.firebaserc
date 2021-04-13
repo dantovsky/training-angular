@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-e-firebase-45863": {
+      "hosting": {
+        "tic-tac-toe-pwa": [
+          "angular-e-firebase-45863"
+        ]
+      }
+    }
+  }
+}
