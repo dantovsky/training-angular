@@ -1,15 +1,20 @@
 <div class="class">
     <h1>Hello Angular 13</h1>
-    <p>Parágrafo</p>
+    <p>Estudos de Angular 13 com Matheus Battisti<br />
+        <a href="https://www.youtube.com/watch?v=vJt_K1bFUeA&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw">Playlist no YouTube</a>
+    </p>
     <h2>H2 do componente principal</h2>
+    <p>Parágrafo</p>
     <div>
         <a href="#">clique aquiii</a>
     </div>
 </div>
 <div class="class">
+    <h2>Primeiro compoennte</h2>
     <app-first-component></app-first-component>
 </div>
 <div class="class">
+    <h2>Passar dados de componente pai para filho com @Input()</h2>
     <app-parent-data [name]="userName" [userData]="userData"></app-parent-data>
 </div>
 <div class="class">
@@ -18,4 +23,12 @@
 </div>
 <div class="class">
     <app-if-render></app-if-render>
+</div>
+<div class="class">
+    <h2>Eventos (click)="foo()"</h2>
+    <app-eventos></app-eventos>
+</div>
+<div class="class">
+    <h2>Emitindo eventos com @Output e EventEmitter (emit)="onEmit()"</h2>
+    <app-emitter></app-emitter>
 </div>
