@@ -12,3 +12,25 @@ a {
 body {
     padding-bottom: 500px;
 }
+
+h1, h2, h3 {
+    padding-bottom: 10px;
+}
+
+p, ul li {
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-bottom: 15px;
+}
+
+ul li {
+    margin-left: 30px;
+}
+
+button, input {
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    margin-right: 4px;
+}

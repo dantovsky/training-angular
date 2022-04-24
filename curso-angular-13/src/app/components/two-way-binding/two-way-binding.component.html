@@ -1,0 +1,24 @@
+<ul>
+    <li>Recurso mui interessante para trabalhar com forms</li>
+    <li>Conseguimos alterar props  e o template com o preeenchimento de inputs</li>
+    <li>É necessário importar o FormsModule no componente principal</li>
+    <li>E também declarar o ngModel no input, além de preencher também o atributo name, todos com o mesmo valor</li>
+</ul>
+Para aplicar é necessário adicionar o FormModule em app.module.ts:<br>
+import FormsModule  from '@angular/forms';<br>
+E adicionar aos imports: [FormsModule],
+<br>
+<br>
+<form>
+    <input
+    type="text"
+    [(ngModel)]="name"
+    name="name"
+    placeholder="Digite o seu nome">
+    <input type="submit" value="Enviar">
+</form>
+
+<div *ngIf="name !== ''">
+    O nome é: {{name}}
+</div>
+
