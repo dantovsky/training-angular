@@ -11,7 +11,7 @@
 <h3>Utilizando JSON-Server, Service e HttpClient para receber a lista de animais</h3>
 <ul>
     <li *ngFor="let animal of animalsAPI">
-        Nome: {{animal.name}} | Tipo: {{animal.type}}
+        Nome: <a routerLink="/list/{{animal.id}}">{{animal.name}}</a> | Tipo: {{animal.type}}
         <button (click)="showAge(animal)">Show age</button>
         <button (click)="removeAnimal(animal)">Excluir</button>
     </li>

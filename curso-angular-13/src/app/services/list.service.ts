@@ -20,4 +20,8 @@ export class ListService {
   getAll(): Observable<Animal[]> {
     return this.http.get<Animal[]>(this.apiURL) // <Animal[]> é um generic necessário, que é um padrão do Angular
   }
+
+  getItem(id: number): Observable<Animal> {
+    return this.http.get<Animal>(`${this.apiURL}/${id}`)
+  }
 }
