@@ -24,7 +24,12 @@ export class ListRenderComponent implements OnInit {
 
   animalDetails = ''
 
-  constructor(private listService: ListService) { }
+  // Utilizando o esquema com HttpClientModule (aula #18)
+  animalsAPI: Animal[] = []
+
+  constructor(private listService: ListService) { 
+    this.getAnimalsAPI()
+  }
 
   ngOnInit(): void {
   }
@@ -37,6 +42,11 @@ export class ListRenderComponent implements OnInit {
   removeAnimal(animal: Animal): void {
     console.log('Removendo animal...', animal)
     this.animals = this.listService.remove(this.animals, animal)
+  }
+
+  getAnimalsAPI(): void {
+    // Como o getAll() retorna um Observable<Animal[]>, então temos que ter um subscribe.
+    this.listService.getAll().subscribe(animals => this.animalsAPI = animals)
   }
 
 }

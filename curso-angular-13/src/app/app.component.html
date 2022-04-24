@@ -1,15 +1,29 @@
+<nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="list">ListRender</a>
+    <a routerLink="input">ParentData</a>
+    <a routerLink="directives">Directives</a>
+    <a routerLink="if-render">IfRender</a>
+    <a routerLink="events">Eventos</a>
+    <a routerLink="output">Emitter</a>
+    <a routerLink="pipes">Pipes</a>
+    <a routerLink="two">TwoWayBinding</a>
+    <a routerLink="services">Services</a>
+    <a routerLink="http-client">HttpClient</a>
+</nav>
+
 <div class="class">
     <h1>Hello Angular 13</h1>
     <p>Estudos de Angular 13 com Matheus Battisti<br />
-        <a href="https://www.youtube.com/watch?v=vJt_K1bFUeA&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw">Playlist no YouTube</a>
+        <a href="https://www.youtube.com/watch?v=vJt_K1bFUeA&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw">Playlist no
+            YouTube</a>
     </p>
-    <h2>H2 do componente principal</h2>
-    <p>Parágrafo</p>
-    <div>
-        <a href="#">clique aquiii</a>
-    </div>
 </div>
+
 <div class="class">
+    <router-outlet></router-outlet>
+</div>
+<!-- <div class="class">
     <h2>Primeiro compoennte</h2>
     <app-first-component></app-first-component>
 </div>
@@ -53,4 +67,4 @@
         <li>Importar no componente e iniciar no construtor</li>
     </ul>
     <app-two-way-binding></app-two-way-binding>
-</div>
+</div> -->

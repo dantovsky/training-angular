@@ -9,3 +9,23 @@ p {
     padding: 2em;
     margin: 1em;
 }
+
+nav {
+    padding: 16px;
+    background-color: #1a76d2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+nav a {
+    padding-right: 8px;
+    margin-right: 8px;
+    border-right: 2px solid rgba(204, 204, 204, 0.219);
+    color: white;
+    text-decoration: none;
+}
+
+nav a:last-child {
+    border-right: none;
+}
