@@ -15,7 +15,7 @@ export class EmitterComponent implements OnInit {
   }
 
   // Neste caso estou a receber o evento do click e um parametro junto.
-  // sPoderia receber somente o evento do click.
+  // Poderia receber somente o evento do click.
   onChangeNumbver(range: number): void {
     this.myNumber = Math.floor(Math.random() * range)
   }
