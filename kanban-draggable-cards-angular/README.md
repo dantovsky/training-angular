@@ -14,12 +14,13 @@ npm install bulma --save
 npm install @angular/cdk --save 
 ```
 
-# Projeto Mensagens do Pai
+# Links
 
-Tópicos para ensinar à mãe:
-- Analisar um nicho
-- Como saber se um termo tem procura
-- Roteiro de vídeo
+API reference for Angular CDK drag-drop  
+https://material.angular.io/cdk/drag-drop/examples
+
+Getting Started with Angular Material  
+https://material.angular.io/guide/getting-started
 
 ## Development server
 
