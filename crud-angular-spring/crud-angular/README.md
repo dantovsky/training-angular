@@ -11,7 +11,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 How to add scss in an existing angular project  
 https://stackoverflow.com/questions/70274433/how-to-add-scss-in-an-existing-angular-project
 
-
+How to Add Routing to an Existing Angular Project  
+https://www.samjulien.com/add-routing-existing-angular-project
 
 ## Code scaffolding
 
