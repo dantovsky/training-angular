@@ -13,4 +13,4 @@ export class ErrorDialogComponent implements OnInit {
   ngOnInit(): void {
   }
 
-}
+ }
