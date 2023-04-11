@@ -8,6 +8,24 @@ https://www.youtube.com/watch?v=g2M1ZbiAsmU&list=PLqsayW8DhUmvtNlkDqYj99X73ts9FL
 https://angular-tour-of-heroes-bay.vercel.app/
 https://angular-tour-of-heroes-dantiii.vercel.app/
 
+
+# Packages
+
+ESLint :: identifica bugs, problemas de formatação, etc.  
+O Angular vinha com o tsLint como padrão, mas foi descontinuado. Agora precisa usar o esLint:   
+https://github.com/angular-eslint/angular-eslint  
+```
+ng add @angular-eslint/schematics
+```
+
+# Quality of the code
+
+Using https://deepscan.io/ to analyze quality of the code (scaning all Angular projects, not only this project).
+
+[![DeepScan grade](https://deepscan.io/api/teams/20949/projects/24392/branches/750323/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=20949&pid=24392&bid=750323)
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
 ## Development server
