@@ -1,4 +1,6 @@
-# Angular13TourOfHeroesFrontend
+# Curso Angular 13 Tour of Heroes Frontend
+
+https://www.youtube.com/watch?v=g2M1ZbiAsmU&list=PLqsayW8DhUmvtNlkDqYj99X73ts9FLK7j&index=6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
