@@ -24,6 +24,11 @@ Using https://deepscan.io/ to analyze quality of the code (scaning all Angular p
 
 [![DeepScan grade](https://deepscan.io/api/teams/20949/projects/24392/branches/750323/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=20949&pid=24392&bid=750323)
 
+
+# Anotations
+
+(!) Todo component tem que estar declarado em algum módulo.
+
 ---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
