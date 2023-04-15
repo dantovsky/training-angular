@@ -33,6 +33,17 @@ Using https://deepscan.io/ to analyze quality of the code (scaning all Angular p
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
+# Links
+
+Angular Material  
+https://material.angular.io/
+
+Material Design  
+https://material.io/
+
+Lista de projeto de UI Components para Angular  
+https://angular.io/resources?category=development
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
