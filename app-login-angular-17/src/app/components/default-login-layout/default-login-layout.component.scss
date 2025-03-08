@@ -68,7 +68,12 @@ main {
                 font-weight: 500;
                 border: none;
                 background: transparent;
-                padding: 12px 20px;
+                padding: 12px 24px;
+                cursor: pointer;
+
+                &:disabled {
+                    opacity: .8;
+                }
     
                 &.btn-primary {
                     background-color: $primary-color;
