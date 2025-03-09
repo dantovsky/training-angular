@@ -1,6 +1,18 @@
-# AppLoginAngular17
+# App Login Angular 17
+
+![App Login Anguar 17 - Training coding in Angular](screenshot.png)
+
+Tutorial by Fernanda Kipper | Dev » PROJETO FULLSTACK APP DE LOGIN ANGULAR 17 + JAVA SPRING | FRONTEND  
+https://www.youtube.com/watch?v=6qbuuPM_de4
+
+Design no Figma  
+https://www.figma.com/design/7T1wkErczpMOBeqtpVjMSb/Login-Page-Design?node-id=6-1265&t=1HB89w642QwTOblc-0
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.12.
+
+## My current versions
+
+![Current versions to use Angular](ng-version.png)
 
 ## Development server
 
